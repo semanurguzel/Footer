@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.fab.fa-dribbble{
+    background: url(../img/dribbble.svg);
+}
+.fa-instagram{
+    background: url(../img/dribbble.svg) center center no-repeat;
+}
+.fa-twitter{
+    background: url(../img/dribbble.svg) center center no-repeat;
+}
+.list-unstyled li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202142;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.footer-pad h4 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF6A95;
+}
