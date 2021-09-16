@@ -1,1 +1,1 @@
-Semanur Güzel
+![alt text](https://github.com/semanurguzel/Footer/blob/main/4readMe.png?raw=true)
