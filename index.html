@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title> ssemanur</title>
+    <title>semanur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" media="screen" href="assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     </head>
-
     <body>
-
-        <div class="footer-top mt-5">
+        <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-lg-4 footer-about ">
-                        <img class="logo-footer" src="assets/img/illustrations.png" alt="logo-footer">
-                        <p>
-                            Donate your design and contribute to the community.
-                        </p>
-                        <p><a href="#">Donate now!</a></p>
+                    <div class="col-md-4 footer-about ">
+                        <div class="row">
+                        <div class="col-md-4 footer-about-logo">
+                            <img class="logo-footer" src="assets/img/illustrations.png" alt="logo-footer">
+                        </div>
+                        <div class="col-md-8 mt-2">
+                            <ul class="list-unstyled sm">
+                                <li>Do you have designs to spare?</li>
+                                <li>Donate your design and contribute to the community.</li>
+                            </ul>
+                            <a href="#" class="sm-button">Donate now!</a> 
+                        </div> 
+                    </div>                         
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-2 footer-m ">
                         <div class="footer-pad">
                         <h4>Explore</h4>
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled footer-list">
                             <li><a href="#">Free designs</a></li>
                             <li><a href="#">Latest designs</a></li>
                             <li><a href="#">Most popular designs</a></li>
@@ -32,10 +37,10 @@
                         </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-2 footer-s">
                         <div class="footer-pad">
                         <h4>Site</h4>
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled footer-list">
                             <li><a href="#">License</a></li>
                             <li><a href="#">Articles</a></li>
                             <li><a href="#">About</a></li>
@@ -43,32 +48,91 @@
                             <li><a href="#">Sponsor UI Design Daily</a></li>
                         </ul>
                         </div>
+                    
                     </div>
-                    <div class="col-md-2 col-lg-2 footer-social">
-                        <h3>Follow us</h3>
+
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                Explore
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled footer-list">
+                                    <li><a href="#">Free designs</a></li>
+                                    <li><a href="#">Latest designs</a></li>
+                                    <li><a href="#">Most popular designs</a></li>
+                                    <li><a href="#">Contributors</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Site
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled footer-list">
+                                    <li><a href="#">License</a></li>
+                                    <li><a href="#">Articles</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Sponsor UI Design Daily</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="col-md-2 footer-social">
+                        <h4>Follow us</h4>
                         <div class="row">
-                            <div class="col-md-4">
-                                
-                            <a href="#" id="">
-                                <i class="fab fa-dribble"></i>
+                            <div class="col-4 mt-2 footer-social-sm">
+                                <a href="#">
+                                    <img src="./assets/img/dribbble.svg" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-4">
-                                <a href="#"><i class="fab fa-instagram"></i></a> 
+                            <div class="col-4 mt-2 footer-social-sm">
+                                <a href="#">
+                                    <img src="./assets/img/twitter.svg" alt="">
+                                </a>
                             </div>
-                            <div class="col-md-4">
-                                <a href="#"><i class="fab fa-twitter"></i></a> 
+                            <div class="col-4 mt-2 footer-social-sm">
+                                <a href="#">
+                                    <img src="./assets/img/instagram.svg" alt="">
+                                </a>
                             </div>
-                        
+                        </div>
+                        <div class="row">
+                        <div class="col-md-12 join">
+                            <img src="./assets/img/join.png" alt="">
                         </div>
                     </div>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-12 text-center reklam">
+                          <img src="./assets/img/small.png" alt="">
+                      </div>
+                </div>
+                <div class="row">
+                    <ul class="copy-rigt">
+                        <li>Legal</li>
+                        <li>© 2021 UI Design Daily All rights reserved</li>
+                        <li>
+                            <span class="donate-counter" data-target="1384">1384</span>
+                            <span class="donate-text">Design files donated</span>
+                        </li>
+                    </ul>
+               </div>        
             </div>
-            <div class="col-md-12 reklam">
-                <img src="" alt="">
-            </div>
-
-        </div>
+        </footer>
+        <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/main.js"></script>
    </body>
 
