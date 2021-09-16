@@ -1,1 +1,1 @@
-![alt text](https://github.com/semanurguzel/Footer/blob/main/4readMe.png?raw=true)
+![alt text](https://github.com/semanurguzel/Footer/blob/main/assets/img/4readMe.PNG)
